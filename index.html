@@ -40,9 +40,12 @@
   position: relative;
   z-index: 1;
     }
-   h1, h2, h3, p {
-     h1: #ffffff;
-  text-shadow: 0 2px 16px rgba(0, 0, 0, 0.7), 0 1px 4px rgba(0, 0, 0, 0.5);
+ h1, h2, h3, p {
+  text-shadow: 0 2px 20px rgba(0, 0, 0, 0.95), 0 1px 6px rgba(0, 0, 0, 0.9);
+}
+
+h1 {
+  color: #ffffff;
 }
 
     .bg-image {
@@ -146,10 +149,12 @@
       font-style: italic;
       font-weight: 300;
       font-size: clamp(1rem, 2.5vw, 1.4rem);
-      color: rgba(210,190,160,0.9);
       letter-spacing: 0.06em;
       animation: fadeUp 1.8s 0.65s cubic-bezier(0.22, 1, 0.36, 1) both;
     }
+    .tagline, .subtitle, .email, .divider-text {
+  color: rgba(255, 255, 255, 0.85);
+}
 
     .divider {
       width: 1px;
